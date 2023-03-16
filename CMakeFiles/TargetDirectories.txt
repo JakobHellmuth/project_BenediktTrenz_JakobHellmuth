@@ -1,0 +1,3 @@
+/workspaces/learn2code_template/Jakob-Hellmuth-Benedikt-Trenz/CMakeFiles/Programmentwurf.dir
+/workspaces/learn2code_template/Jakob-Hellmuth-Benedikt-Trenz/CMakeFiles/edit_cache.dir
+/workspaces/learn2code_template/Jakob-Hellmuth-Benedikt-Trenz/CMakeFiles/rebuild_cache.dir

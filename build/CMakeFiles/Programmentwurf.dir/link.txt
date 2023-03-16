@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Programmentwurf.dir/Programmentwurf.c.o -o Programmentwurf 
