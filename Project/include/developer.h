@@ -11,6 +11,6 @@ char alias[ALIAS_LENGTH];
 }
 developer;
 
-void developer_init(developer *dev, const char *name, const char *alias);
+void developer_init(developer *const dev, const char *name, const char *alias);
 
 #endif

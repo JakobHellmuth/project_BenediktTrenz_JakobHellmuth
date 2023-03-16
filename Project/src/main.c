@@ -46,7 +46,7 @@ developer_group_init(&d_g, &dev1, &dev2, "Logo");
 		}
 		else if(a==3)
 		{
-			printf("%s\n",d_g);
+			printf("%s\n", &d_g);
 		}
 		if(a==4)
 		break;

@@ -15,6 +15,6 @@ typedef struct
 	char logo[LOGO_LENGTH];
 } developer_group;
 
-void developer_group_init(developer_group* d_g, const developer* dev1, const developer* dev2, const char* logo);
+void developer_group_init(developer_group *const d_g, const developer* dev1, const developer* dev2, const char* logo);
 
 #endif
