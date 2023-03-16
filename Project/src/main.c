@@ -53,4 +53,3 @@ developer_group_init(&d_g, &dev1, &dev2, "Logo");
 		}
 	return 0;
 ;}
-#include <stdio.h>
