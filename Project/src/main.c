@@ -25,7 +25,7 @@ developer_init(&dev1, "Jakob Hellmuth", "Bobi");
 developer_init(&dev2, "Benedikt Trenz", "Ben");
 
 // initializing developer_group
-developer_group_init(&d_g, &dev1, &dev2, "logo");
+developer_group_init(&d_g, &dev1, &dev2, logo);
 
 	// loop for menue
 	while(1)
