@@ -12,15 +12,25 @@ int main()
 developer dev1;
 developer dev2;
 developer_group d_g;
-char logo;
-logo = 'skskdsa';
+char logo[] =
+
+"__/\\\\\\\\\\\\\\\__/\\\\\\\\\\\\\\\_\n"
+" _\////////////\\\__\/\\\///////////__\n"
+"  ___________/\\\/___\/\\\_____________\n"
+"   _________/\\\/_____\/\\\\\\\\\\\_____\n"
+"    _______/\\\/________\/\\\///////______\n"
+"     _____/\\\/__________\/\\\_____________\n"
+"      ___/\\\/____________\/\\\_____________\n" 
+"       __/\\\\\\\\\\\\\\\_\/\\\_____________\n"
+"        _\///////////////__\///______________\n";
+
 
 // initializing developer
 developer_init(&dev1, "Jakob Hellmuth", "Bobi");
 developer_init(&dev2, "Benedikt Trenz", "Ben");
 
 // initializing developer_group
-developer_group_init(&d_g, &dev1, &dev2, "Logo");
+developer_group_init(&d_g, &dev1, &dev2, "logo");
 
 	// loop for menue
 	while(1)
@@ -42,7 +52,7 @@ developer_group_init(&d_g, &dev1, &dev2, "Logo");
 		}
 		else if(a==2)
 		{
-			printf("%c\n", logo);
+			printf("%s\n", logo);
 		}
 		else if(a==3)
 		{
