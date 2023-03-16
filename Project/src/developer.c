@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #include <stdio.h>
 #include "developer.h"
 
@@ -20,4 +21,7 @@ strncpy(dev->alias, alias, strlen(alias) +1);
 		strncpy((char *)d_g->dev2,(char*) dev2, strlen((char*)dev2) +1);
 		strncpy(d_g->logo, logo, strlen(logo) +1);
 	}
+>>>>>>> editing_developer_group
+=======
+
 >>>>>>> editing_developer_group
