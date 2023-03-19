@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+//defining developer_init & developer_add_alias
 void developer_init(developer *const dev, const char *name)
 {
 strncpy(dev->name, name, strlen(name) +1);
