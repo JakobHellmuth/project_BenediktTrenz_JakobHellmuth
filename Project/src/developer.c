@@ -12,4 +12,3 @@ void developer_add_alias(developer *const dev, const char *alias)
 {
 strncpy(dev->alias, alias, strlen(alias) +1);
 }
-

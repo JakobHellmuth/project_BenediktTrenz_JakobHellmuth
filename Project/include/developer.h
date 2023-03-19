@@ -13,4 +13,5 @@ developer;
 
 void developer_init(developer *const dev, const char *name);
 void developer_add_alias(developer *const dev, const char *alias);
+void developer_print(developer const *const dev);
 #endif
