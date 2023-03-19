@@ -27,7 +27,7 @@ developer_init(&dev2, "Benedikt Trenz");
 developer_add_alias(&dev2, "Ben");
 
 // initializing developer_group
-developer_group_init(developer_group *const d_g, const developer* dev1, const developer* dev2, const char* logo);
+developer_group_init(&d_g, &dev1, &dev2, logo);
 
 	// loop for menue
 	while(1)
