@@ -21,8 +21,10 @@ char logo[] =
 
 
 // initializing developer
-developer_init(&dev1, "Jakob Hellmuth", "Bobi");
-developer_init(&dev2, "Benedikt Trenz", "Ben");
+developer_init(&dev1, "Jakob Hellmuth");
+developer_add_alias(&dev1, "Bobi");
+developer_init(&dev2, "Benedikt Trenz");
+developer_add_alias(&dev2, "Ben");
 
 // initializing developer_group
 developer_group_init(&d_g, &dev1, &dev2, logo);
@@ -42,8 +44,8 @@ developer_group_init(&d_g, &dev1, &dev2, logo);
 
 		if(a==1)
 		{
-			printf("%s\n", &dev1);
-			printf("%s\n", &dev2);
+			printf("%s, %s\n", dev1.name, dev1.alias);
+			printf("%s, %s\n", dev2.name, dev2.alias);
 		}
 		else if(a==2)
 		{
@@ -51,7 +53,8 @@ developer_group_init(&d_g, &dev1, &dev2, logo);
 		}
 		else if(a==3)
 		{
-			printf("%s\n", &d_g);
+			printf("%s, %s\n", d_g.dev1, d_g.dev2);
+			printf("%s\n", d_g.logo);
 		}
 		if(a==4)
 		break;
