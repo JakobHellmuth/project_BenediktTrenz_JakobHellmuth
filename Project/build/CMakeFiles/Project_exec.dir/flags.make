@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/workspaces/project_info/Project/include
 
-C_FLAGS = -std=gnu11 -Wall -Wextra -pedantic -O0
+C_FLAGS = -std=gnu11 -Wall -Wextra -pedantic -O0 -Werror
 
