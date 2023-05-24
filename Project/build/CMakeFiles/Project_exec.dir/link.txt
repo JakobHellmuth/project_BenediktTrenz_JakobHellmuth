@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/Project_exec.dir/src/main.c.o CMakeFiles/Project_exec.dir/src/developer.c.o CMakeFiles/Project_exec.dir/src/developer_group.c.o -o Project_exec  -Wl,-rpath,/workspaces/project_info/Project/build libmylib.so 

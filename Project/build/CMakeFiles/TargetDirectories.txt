@@ -1,4 +1,0 @@
-/workspaces/project_info/Project/build/CMakeFiles/mylib.dir
-/workspaces/project_info/Project/build/CMakeFiles/Project_exec.dir
-/workspaces/project_info/Project/build/CMakeFiles/edit_cache.dir
-/workspaces/project_info/Project/build/CMakeFiles/rebuild_cache.dir
