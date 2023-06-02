@@ -14,7 +14,7 @@ add_compile_options(-Wall -Wextra -pedantic -O0)
 # add a library for your student structure
 add_library(library src/developer.cpp)
 # add the includes to the library
-target_include_directories(developer PUBLIC include)
+target_include_directories(library PUBLIC include)
 
 # add an executabel and assign files to it
 add_executable(exam_2_main src/main.cpp)
