@@ -23,8 +23,8 @@ CMAKE_AR:FILEPATH=/usr/bin/llvm-ar-16
 //No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Debug
 
-//CXX compiler
-CMAKE_CXX_COMPILER:STRING=/usr/bin/clang++-16
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/clang++-16
 
 //LLVM archiver
 CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/llvm-ar-16
@@ -122,7 +122,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=homework_2_4
+CMAKE_PROJECT_NAME:STATIC=exam_2
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.0
@@ -230,6 +230,15 @@ GTEST_MAIN_LIBRARY_DEBUG:FILEPATH=GTEST_MAIN_LIBRARY_DEBUG-NOTFOUND
 
 //The directory containing a CMake configuration file for GTest.
 GTest_DIR:PATH=GTest_DIR-NOTFOUND
+
+//Value Computed by CMake
+exam_2_BINARY_DIR:STATIC=/workspaces/project_info/build
+
+//Value Computed by CMake
+exam_2_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+exam_2_SOURCE_DIR:STATIC=/workspaces/project_info/project_info_II
 
 //Value Computed by CMake
 homework_2_4_BINARY_DIR:STATIC=/workspaces/project_info/build

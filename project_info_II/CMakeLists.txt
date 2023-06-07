@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.20)
 
 # define the project name
-project(homework_2_4 VERSION 1.0 LANGUAGES CXX)
+project(exam_2 VERSION 1.0 LANGUAGES CXX)
 
 # define the c++ standard version
 set(CMAKE_CXX_STANDARD 14)
