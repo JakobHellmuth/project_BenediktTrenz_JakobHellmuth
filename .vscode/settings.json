@@ -97,4 +97,6 @@
         "queue": "cpp"
     },
     "cSpell.language": "en,en-GB",
+    "cmake.sourceDirectory": "/workspaces/project_info/project_info_II",
+    "C_Cpp.errorSquiggles": "disabled",
 }
