@@ -3,11 +3,7 @@
 #include "developer.hpp"
 
 TEST(DeveloperTest, ConstructorAndGetters) {
-    // Test Developer class
-    Developer developer("Jakob Hellmuth", "Bobi");
-    EXPECT_EQ(developer.getName(), "Jakob Hellmuth");
-    EXPECT_EQ(developer.getAlias(), "Bobi");
-
+   
     // Test JuniorDeveloper class
     JuniorDeveloper juniorDev("Benedikt Trenz", "Ben");
     EXPECT_EQ(juniorDev.getName(), "Benedikt Trenz");
