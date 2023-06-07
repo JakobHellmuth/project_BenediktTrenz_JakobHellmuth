@@ -1,6 +1,0 @@
-/workspaces/project_info/build/CMakeFiles/library.dir
-/workspaces/project_info/build/CMakeFiles/exam_2_main.dir
-/workspaces/project_info/build/CMakeFiles/developer_tests.dir
-/workspaces/project_info/build/CMakeFiles/test.dir
-/workspaces/project_info/build/CMakeFiles/edit_cache.dir
-/workspaces/project_info/build/CMakeFiles/rebuild_cache.dir
