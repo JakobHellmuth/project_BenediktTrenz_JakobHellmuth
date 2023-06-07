@@ -4,7 +4,7 @@ Unable to find executable: developer_tests_NOT_BUILT
 1/1 Testing: developer_tests_NOT_BUILT
 1/1 Test: developer_tests_NOT_BUILT
 Command: ""
-Directory: /workspaces/project_info/project_info_II/build
+Directory: /workspaces/project_info/build
 "developer_tests_NOT_BUILT" start time: 
 Output:
 ----------------------------------------------------------
