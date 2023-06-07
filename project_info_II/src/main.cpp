@@ -8,8 +8,8 @@ int main() {
     std::vector<std::shared_ptr<Developer>> developers;
 
     // Create Developer objects
-    std::shared_ptr<Developer> seniorDev = std::make_shared<SeniorDeveloper>("Diana Prince", "Wonder Woman");
-    std::shared_ptr<Developer> juniorDev = std::make_shared<JuniorDeveloper>("Peter Parker", "Spiderman");
+    std::shared_ptr<Developer> seniorDev = std::make_shared<SeniorDeveloper>("Jakob Hellmuth", "Bobi");
+    std::shared_ptr<Developer> juniorDev = std::make_shared<JuniorDeveloper>("Benedikt Trenz", "Ben");
 
     // Add Developer objects to the vector
     developers.push_back(seniorDev);

@@ -5,8 +5,8 @@
 Developer::Developer(const std::string& name, const std::string& alias)
     : name(name), alias(alias) {}
 
-void Developer::drink_coffee() {
-    std::cout << "Ahhhh, I needed that coffee!!!" << std::endl;
+void Developer::drink_spezi() {
+    std::cout << "Ahhhh, I needed that spezi!!!" << std::endl;
 }
 
 std::string Developer::getName() const {
@@ -26,14 +26,14 @@ std::ostream& operator<<(std::ostream& os, const Developer& developer) {
 
 void JuniorDeveloper::solve_problem() {
     std::cout << "Solving a problem:\n" << *this << std::endl;
-    std::cout << "Ha, that was EZ!" << std::endl;
-    drink_coffee();
+    std::cout << "Ha, that was chaotic!" << std::endl;
+    drink_spezi();
 }
 
 // SeniorDeveloper class implementation
 
 void SeniorDeveloper::solve_problem() {
     std::cout << "Solving a problem:\n" << *this << std::endl;
-    std::cout << "Puh, that was tough" << std::endl;
-    drink_coffee();
+    std::cout << "Puh, that was difficult" << std::endl;
+    drink_spezi();
 }

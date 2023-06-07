@@ -15,7 +15,7 @@ public:
     Developer(const std::string& name, const std::string& alias);
 
     // Static method
-    static void drink_coffee();
+    static void drink_spezi();
 
     // Getter methods
     std::string getName() const;
