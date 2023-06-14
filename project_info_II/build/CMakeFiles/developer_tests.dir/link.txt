@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/developer_tests.dir/test/test_developer.cpp.o -o developer_tests  liblibrary.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread 
