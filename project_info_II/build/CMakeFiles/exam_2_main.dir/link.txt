@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/exam_2_main.dir/src/main.cpp.o -o exam_2_main  liblibrary.a 

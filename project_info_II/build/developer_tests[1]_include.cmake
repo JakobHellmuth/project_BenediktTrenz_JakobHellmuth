@@ -1,5 +1,0 @@
-if(EXISTS "/workspaces/project_info/project_info_II/build/developer_tests[1]_tests.cmake")
-  include("/workspaces/project_info/project_info_II/build/developer_tests[1]_tests.cmake")
-else()
-  add_test(developer_tests_NOT_BUILT developer_tests_NOT_BUILT)
-endif()
