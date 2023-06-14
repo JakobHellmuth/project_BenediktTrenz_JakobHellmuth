@@ -18,8 +18,8 @@ public:
     static void drink_spezi();
 
     // Getter methods
-    std::string getName() const;
-    std::string getAlias() const;
+    std::string get_name() const;
+    std::string get_alias() const;
 
     // Pure virtual method
     virtual void solve_problem() = 0;

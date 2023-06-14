@@ -9,11 +9,11 @@ void Developer::drink_spezi() {
     std::cout << "Ahhhh, I needed that spezi!!!" << std::endl;
 }
 
-std::string Developer::getName() const {
+std::string Developer::get_name() const {
     return name;
 }
 
-std::string Developer::getAlias() const {
+std::string Developer::get_alias() const {
     return alias;
 }
 

@@ -1,0 +1,9 @@
+# ninja log v5
+0	2333	1686725073161580500	CMakeFiles/library.dir/src/developer.cpp.o	2ecd30c2500920f2
+2	2448	1686725073277580500	CMakeFiles/developer_tests.dir/test/test_developer.cpp.o	a66a8cadf825289f
+1	2515	1686725073337580500	CMakeFiles/exam_2_main.dir/src/main.cpp.o	b1366f1b6d629bdf
+2334	2585	1686725073357580500	liblibrary.a	870f8d5cf0c28cd7
+2586	2943	1686725073785580500	exam_2_main	5a2f4e0c2ab48acc
+2586	3218	1686725074065580500	developer_tests	357f795f6bd7e4c1
+2586	3218	1686725074065580500	developer_tests[1]_tests.cmake	357f795f6bd7e4c1
+2586	3218	1686725074065580500	/workspaces/project_info/build/developer_tests[1]_tests.cmake	357f795f6bd7e4c1

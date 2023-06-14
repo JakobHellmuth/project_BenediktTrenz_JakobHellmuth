@@ -9,7 +9,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # add some compile options
-add_compile_options(-Wall -Wextra -pedantic -O0)
+add_compile_options(-Wall -Wextra -pedantic)
 
 # add a library for your student structure
 add_library(library src/developer.cpp)

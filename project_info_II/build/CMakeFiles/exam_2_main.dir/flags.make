@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/workspaces/project_info/project_info_II/include
 
-CXX_FLAGS = -std=gnu++14 -Wall -Wextra -pedantic -O0
+CXX_FLAGS = -std=gnu++14 -Wall -Wextra -pedantic
 
